@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 29, 32);
+    color: white;
+}
+
+header {
+    width: 75%;
+    height: 120px;
+    margin: 28px auto;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 1200px;
+    font-size: 52px;
+    margin: 12px 0;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: lighter;
+    width: 1200px;
+}
+
+h2.name {
+    margin: 6px 0;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(184, 184, 231);
+    width: 1200px;
+    letter-spacing: 1px;
+}
+
+h2.title {
+    margin: 0 0 20px 0;
+    color: rgb(149, 202, 233);
+    width: 1200px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 0;
+    color: rgb(165, 207, 226);
+    font-weight: lighter;
+    width: 1200px;
+    letter-spacing: 1px;
+}
+
+.gerenciando_estado {
+    width: 80%;
+    height: 192px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 24px 32px;
+    border: 1px solid rgb(211, 172, 216);
+    border-radius: 10px;
+}
+
+.drops {
+    width: 80%;
+    height: 192px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 24px 32px;
+    border: 1px solid rgb(211, 172, 216);
+    border-radius: 10px;
+}
+
+.thumbs {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 240px;
+    height: 136px;
+    border-radius: 6px;
+}
